@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -7,10 +7,9 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <div class="img-main-container">
+        <img class="img-main" src={"https://timelinecovers.pro/facebook-cover/download/yoga-bohemian-colorful-mandala-facebook-cover.jpg"} alt={"There is nothing to see here."} />
+    </div>
   </Layout>
 )
 

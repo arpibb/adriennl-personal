@@ -1,34 +1,35 @@
+$maincolor: white;
+$sceondarycolor: #D560B9;
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  border: 0;
+  margin: 0;
+  padding:0;
 }
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  border-top: 10px solid $maincolor;
+  border-right: 30px solid $maincolor;
+  border-bottom: 10px solid $maincolor;
+  border-left: 30px solid $maincolor;
+  font-family: Moon sans-serif;
 }
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block;
+
+.img-main-container{
+  display: flex;
+  justify-content: center;
+
+  .img-main {
+      margin: 10rem 0 15rem 0;
+  }
 }
-audio,
-canvas,
-progress,
-video {
-  display: inline-block;
-}
-audio:not([controls]) {
+
+/*audio:not([controls]) {
   display: none;
   height: 0;
 }
@@ -620,3 +621,4 @@ pre tt:after {
     font-size: 100%;
   }
 }
+*/

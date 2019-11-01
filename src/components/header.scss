@@ -1,0 +1,60 @@
+$maincolor: white;
+$sceondarycolor: #D560B9;
+
+header {
+
+    padding-top: 10px; 
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    ul {
+        padding-inline-start: 0px;
+    }
+    
+    .img-logo{
+        width: 100px;
+        height: auto;
+    }
+    
+    .header-container1 .header-container2 .header-container3{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .header-container3{
+        text-align: right;
+    }
+
+    .nav-list {
+        list-style-type: none;
+        
+        
+        .nav-item{
+            padding: 0 0 10px 0;
+        }
+        .nav-link {
+            text-decoration: none;
+            color: grey;
+            transition: 0.5s all ease-in;
+            &:hover {
+                color: $sceondarycolor;
+            };
+        }
+    }
+    .contact-link{
+        padding: 7.5px 15px;
+        color: $sceondarycolor;
+        border: 2px solid $sceondarycolor;
+        border-radius: 2px;
+        text-decoration: none;
+        transition: 0.5s all ease-in;
+        &:hover {
+            color: white;
+            background-color: $sceondarycolor;
+          }
+    }
+}
