@@ -4,7 +4,6 @@ import { Link } from "gatsby";
 
 
 import "./header.scss"
-import "./animate.css"
 
 class Header extends Component {
   constructor(props){ 
@@ -22,12 +21,6 @@ class Header extends Component {
      }
    }
   }
-  // componentDidMount () {      
-  //   window.onscroll =()=>{
-  //       this.setState({currentScrollHeight: window.scrollY})
-  //  }
-  // }
-
   render(){
     const opacity = Math.min(10 / this.state.currentScrollHeight  , 1);
     console.log(this.state.currentScrollHeight);
