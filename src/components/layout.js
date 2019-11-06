@@ -30,9 +30,9 @@ const Layout = ({ children }) => {
         
           <main>{children}</main>
           <footer>
-            <div class="footer">
-              <p class="copy">Copyright &copy; {new Date().getFullYear()}, Adrienn Lestyan</p>
-              <p class="creator">Created by Arpi B.</p>
+            <div className="footer">
+              <p className="copy">Copyright &copy; {new Date().getFullYear()}, Adrienn Lestyan</p>
+              <p className="creator">Created by Arpi B.</p>
             </div>
           </footer>
           {/* <footer>
