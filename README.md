@@ -95,3 +95,13 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+Used resources for different site parts:
+
+nav-link underlines:
+https://tobiasahlin.com/blog/css-trick-animating-link-underlines/
+
+fade-out animation in header:
+https://stackoverflow.com/questions/46719757/how-can-i-fade-a-navbar-with-a-scroll-down-with-react
+
+
