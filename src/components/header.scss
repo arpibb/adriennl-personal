@@ -57,23 +57,38 @@ header {
                 content: "";
                 position: absolute;
                 width: 100%;
+<<<<<<< HEAD
                 height: 0.07rem;
                 bottom: 0;
                 left: 0;
                 background-color: black;
                 color: black;
+=======
+                height: 0.1rem;
+                bottom: 0;
+                left: 0;
+                background-color: grey;
+>>>>>>> 50561323f879e04d668f9d2e1dca5bc43e3ba14c
                 visibility: hidden;
                 -webkit-transform: scaleX(0);
                 transform: scaleX(0);
                 -webkit-transition: all 0.3s ease-in-out 0s;
                 transition: all 0.3s ease-in-out 0s;
+<<<<<<< HEAD
                }
+=======
+            }
+>>>>>>> 50561323f879e04d668f9d2e1dca5bc43e3ba14c
             &:hover:before{
                 visibility: visible;
                 -webkit-transform: scaleX(1);
                 transform: scaleX(1);
             }
+<<<<<<< HEAD
             }
+=======
+
+>>>>>>> 50561323f879e04d668f9d2e1dca5bc43e3ba14c
         }
     }
     .contact-link{
