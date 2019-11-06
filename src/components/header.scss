@@ -29,9 +29,6 @@ header {
         justify-content: space-between;
     }
     
-    .header-container1{
-
-    }
     .header-container3{
         text-align: right;
 
@@ -56,6 +53,7 @@ header {
             &:before{
                 content: "";
                 position: absolute;
+                margin-bottom: -3px;
                 width: 100%;
                 height: 0.07rem;
                 bottom: 0;
