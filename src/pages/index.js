@@ -10,6 +10,15 @@ const IndexPage = () => (
     <div className="img-main-container">
         <img className="img-main" src={"https://timelinecovers.pro/facebook-cover/download/yoga-bohemian-colorful-mandala-facebook-cover.jpg"} alt={"There is nothing to see here."} />
     </div>
+    <div className="img-main-container">
+        <img className="img-main" src={"https://timelinecovers.pro/facebook-cover/download/yoga-bohemian-colorful-mandala-facebook-cover.jpg"} alt={"There is nothing to see here."} />
+    </div>
+    <div className="img-main-container">
+        <img className="img-main" src={"https://timelinecovers.pro/facebook-cover/download/yoga-bohemian-colorful-mandala-facebook-cover.jpg"} alt={"There is nothing to see here."} />
+    </div>
+    <div className="img-main-container">
+        <img className="img-main" src={"https://timelinecovers.pro/facebook-cover/download/yoga-bohemian-colorful-mandala-facebook-cover.jpg"} alt={"There is nothing to see here."} />
+    </div>
   </Layout>
 )
 
