@@ -104,4 +104,9 @@ https://tobiasahlin.com/blog/css-trick-animating-link-underlines/
 fade-out animation in header:
 https://stackoverflow.com/questions/46719757/how-can-i-fade-a-navbar-with-a-scroll-down-with-react
 
+index page image menu ease transition:
+https://stackoverflow.com/questions/17481660/darken-background-image-on-hover/29622176
+
+
+
 
