@@ -13,20 +13,9 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  border-top: 10px solid $maincolor;
-  border-right: 30px solid $maincolor;
-  border-bottom: 10px solid $maincolor;
-  border-left: 30px solid $maincolor;
-  font-family: Moon sans-serif;
-}
-
-.img-main-container{
-  display: flex;
-  justify-content: center;
-
-  .img-main {
-      margin: 10rem 0 15rem 0;
-  }
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Montserrat;
 }
 
 /*audio:not([controls]) {

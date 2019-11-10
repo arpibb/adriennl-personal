@@ -23,8 +23,8 @@ class Header extends Component {
   }
   render(){
     const opacity = Math.min(10 / this.state.currentScrollHeight  , 1);
-    console.log(this.state.currentScrollHeight);
-    console.log(opacity);
+    //console.log(this.state.currentScrollHeight);
+    //console.log(opacity);
     return (
       <header>
         <nav>
@@ -35,7 +35,7 @@ class Header extends Component {
           </ul>
         </div>
         <div className="header-container2">
-          <img id="img-logo" style={{opacity}} className="img-logo" src={"https://png.pngtree.com/templates/md/20180713/md_5b4926ffdfb64.jpg"} alt={"Nothing here :("} />
+          <Link className="" to='/'><img id="img-logo" style={{opacity}} className="img-logo" src={"https://png.pngtree.com/templates/md/20180713/md_5b4926ffdfb64.jpg"} alt={"Nothing here :("} /></Link>
         </div>
         <div className="header-container3">
           <ul className="nav-list">

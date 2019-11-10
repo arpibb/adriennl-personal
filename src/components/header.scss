@@ -3,7 +3,9 @@ $sceondarycolor: #D560B9;
 
 header {
     box-sizing: border-box;
-    padding-top: 10px; 
+    padding-top: 10px;
+    margin-right: 3vw;
+    margin-left: 3vw;
     
 
     nav {
@@ -11,7 +13,8 @@ header {
         justify-content: space-between;
         flex-shrink: 0;
         position: fixed;
-        width: 96%;
+        max-width: 94vw;
+        width: 100%;
         margin: auto;
     }
 

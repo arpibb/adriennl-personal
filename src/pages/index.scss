@@ -1,0 +1,43 @@
+.welcome-text{
+    margin: 17vw 10vw 10vw 10vw;
+    text-align: center;
+    p {
+        font-family: Montserrat;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 1.7;
+    }
+}
+.image-menu{
+    
+    .image-menu-top{
+        display: flex;
+        
+    }
+    .image-menu-bottom{
+        display: flex;
+    }
+    .img-main-container {
+        width: 50vw;
+        background: #371D3B;
+        
+        .img-main{
+            display:block;
+            width: 50vw;
+            height: 33vh;
+            opacity: 1;
+            &:hover{
+                opacity: 0;
+                -webkit-transition: all 0.3s ease;
+                -moz-transition: all 0.3s ease;
+                -o-transition: all 0.3s ease;
+                -ms-transition: all 0.3s ease;
+                transition: all 0.3s ease;
+            }
+        }
+        
+    }
+    .image-link{
+        display:inline;
+    }
+}
