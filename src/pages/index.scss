@@ -18,23 +18,47 @@
         display: flex;
     }
     .img-main-container {
-        width: 50vw;
+        width: 25vw;
         background: #371D3B;
+
+        .image-link{
+            position: relative;
+        }
         
         .img-main{
             display:block;
-            width: 50vw;
-            height: 33vh;
+            width: 25vw;
+            height: auto;
             opacity: 1;
-            &:hover{
-                opacity: 0;
-                -webkit-transition: all 0.3s ease;
-                -moz-transition: all 0.3s ease;
-                -o-transition: all 0.3s ease;
-                -ms-transition: all 0.3s ease;
-                transition: all 0.3s ease;
-            }
         }
+
+         .img-text {
+            position: relative;
+            color: pink;
+            position: absolute;
+            margin: 5vw 0 0 7vw;
+            text-align: center;
+            //transform: translate(-20%, -50%);
+            z-index: 10;
+            opacity: 0;
+            //transition: all 0.2s ease;          
+    }
+    &:hover .img-main{
+        opacity: 0.5;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    &:hover .img-text{
+        opacity: 1;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
         
     }
     .image-link{
