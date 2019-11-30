@@ -30,8 +30,8 @@ class Header extends Component {
         <nav>
         <div className="header-container1">
           <ul className="nav-list">
-            <li className="nav-item"><Link className="nav-link" to='/projects'>Projects</Link></li>
-            <li className="nav-item"><Link className="nav-link" to='/yoga'>Yoga</Link></li>
+            <li className="nav-item"><Link className="nav-link" to='/projects'>Frame</Link></li>
+            <li className="nav-item"><Link className="nav-link" to='/yoga'>Flow</Link></li>
           </ul>
         </div>
         <div className="header-container2">
@@ -39,8 +39,8 @@ class Header extends Component {
         </div>
         <div className="header-container3">
           <ul className="nav-list">
-            <li className="nav-item"><Link className="nav-link" to='/personal'>Personal</Link></li>
-            <li className="nav-item"><Link className="nav-link" to='/about'>About</Link></li>
+            <li className="nav-item"><Link className="nav-link" to='/personal'>Reflection</Link></li>
+            <li className="nav-item"><Link className="nav-link" to='/about'>Words</Link></li>
           </ul>
         </div>
         </nav>

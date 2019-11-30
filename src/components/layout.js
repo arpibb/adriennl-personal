@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
           <footer>
             <div className="footer">
               <p className="copy">Copyright &copy; {new Date().getFullYear()}, Adrienn Lestyan</p>
-              <p className="creator">Created by Arpi B.</p>
+              <p className="creator">Created by .</p>
             </div>
           </footer>
           {/* <footer>
