@@ -30,17 +30,17 @@ class Header extends Component {
         <nav>
         <div className="header-container1">
           <ul className="nav-list">
-            <li className="nav-item"><Link className="nav-link" to='/projects'>Frame</Link></li>
-            <li className="nav-item"><Link className="nav-link" to='/yoga'>Flow</Link></li>
+            <li className="nav-item"><Link className="nav-link" to='/projects'>Work</Link></li>
+            <li className="nav-item"><Link className="nav-link" to='/yoga'>Yoga</Link></li>
           </ul>
         </div>
         <div className="header-container2">
-          <Link className="" to='/'><img id="img-logo" style={{opacity}} className="img-logo" src={"https://png.pngtree.com/templates/md/20180713/md_5b4926ffdfb64.jpg"} alt={"Nothing here :("} /></Link>
+          <Link className="" to='/'><img id="img-logo" style={{opacity}} className="img-logo" src={"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQZOlS4Fg0ldQmqPYbJIN9t_ILYKjA79YFvtdv5krgKSQih1OiN"} alt={"Nothing here :("} /></Link>
         </div>
         <div className="header-container3">
           <ul className="nav-list">
-            <li className="nav-item"><Link className="nav-link" to='/personal'>Reflection</Link></li>
-            <li className="nav-item"><Link className="nav-link" to='/about'>Words</Link></li>
+            <li className="nav-item"><Link className="nav-link" to='/about'>About Me</Link></li>
+            <li className="nav-item"><Link className="nav-link" to='/personal'>Personal</Link></li>
           </ul>
         </div>
         </nav>

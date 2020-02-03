@@ -31,6 +31,9 @@ header {
         display: flex;
         justify-content: space-between;
     }
+    .header-container2{
+        margin:auto;
+    }
     
     .header-container3{
         text-align: right;
@@ -40,18 +43,24 @@ header {
     .nav-list {
         list-style-type: none;
         
-        
         .nav-item{
-            padding: 0 0 10px 0;
+            padding: 10px 10px;
+            //visibility: hidden;
+            // &:hover{
+            //     visibility: visible;
+            // }
         }
         .nav-link {
-            font-size: 1.1rem;
+            font-size: 1.25vw;
             position: relative;
             text-decoration: none;
             color: black;
-            transition: 0.5s all ease-in;
+            transition: 0.2s all ease-in;
+            
+            
             &:hover {
                 color: black;
+                
             }
             &:before{
                 content: "";

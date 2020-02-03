@@ -3,22 +3,23 @@
     text-align: center;
     p {
         font-family: Montserrat;
+        font-family: Raleway;
         font-weight: 300;
-        font-size: 24px;
-        line-height: 1.7;
+        font-size: 1.6vw;
+        line-height: 2;
     }
 }
 .image-menu{
     
     .image-menu-top{
         display: flex;
-        
+        flex-wrap: wrap;
     }
     .image-menu-bottom{
         display: flex;
     }
     .img-main-container {
-        width: 25vw;
+        width: 25%;
         background: #371D3B;
 
         .image-link{
@@ -27,13 +28,14 @@
         
         .img-main{
             display:block;
-            width: 25vw;
+            width: 100%;
             height: auto;
             opacity: 1;
         }
 
          .img-text {
             position: relative;
+            font-size: 1.3rem;
             color: pink;
             position: absolute;
             margin: 5vw 0 0 7vw;
