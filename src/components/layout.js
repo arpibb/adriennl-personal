@@ -23,7 +23,7 @@ const Layout = ({props, children }) => {
       }
     }
   `)
-
+  const lol = {}
   return (
     <>
       <div className="wrapper">
