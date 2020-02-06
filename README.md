@@ -110,3 +110,5 @@ https://speckyboy.com/advanced-image-hover-effects/
 
 index page image menu ease transition:
 https://stackoverflow.com/questions/17481660/darken-background-image-on-hover/29622176
+
+updated readme.
